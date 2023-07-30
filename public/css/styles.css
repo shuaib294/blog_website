@@ -1,0 +1,78 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+  
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  
+  .footer-padding {
+      padding-bottom: 60px;
+  }
+  
+  .footer {
+      position: relative;
+      text-align: center;
+      bottom: 0;
+      width: 100%;
+      height: 20vh;
+      background-color: #1abc9c;
+      padding-top: 10px;
+  }
+  
+  .footer p {
+    margin-top:30px;
+      font-size: 15px;
+      color: #fff;
+  }
+
+button{
+    color:white;
+    background-color: rgb(0, 157, 255);
+    border-radius: 10px;
+    width:150px;
+    height:35px;
+    border:none;
+}
+
+.post_container{
+    background-color: rgb(232, 232, 232);
+    border-radius:10px;
+    padding:5px;
+    margin: 15px 0px;
+}
+
+.home_container{
+    padding:10px;
+    height:fit-content;
+    min-height: 80vh;
+}
+
+.addpost{
+    width:150px;
+    margin:10px auto;
+}
+
+input[type="text"]{
+    width:100%;
+}
+
+.post{
+    width:100%;
+    height:150px;
+}
+
